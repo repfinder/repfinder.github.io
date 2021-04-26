@@ -1,37 +1,19 @@
-## Welcome to GitHub Pages
 
-You can use the [editor on GitHub](https://github.com/repfinder/repfinder.github.io/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+### RefFinder
 
-### Markdown
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
-```markdown
-Syntax highlighted code block
+Libraries are widely adopted in developing software projects. Library APIs are often missing during library evolution as library developers may deprecate, remove or refactor APIs. As a result, client developers have to manually find replacement APIs for missing APIs when updating library versions in their projects, which is a difficult and expensive software maintenance task. One of the key limitations of the existing automated approaches is that they usually consider the library itself as the single source to find replacement APIs, which heavily limits their accuracy.
 
-# Header 1
-## Header 2
-### Header 3
 
-- Bulleted
-- List
 
-1. Numbered
-2. List
+In this paper, we first present an empirical study to understand characteristics about missing APIs and their replacements. Specifically, we quantify the prevalence of missing APIs, and summarize the knowledge sources where the replacements are found, and the code change and mapping cardinality between missing APIs and their replacements. Then, inspired by the insights from our study, we propose a heuristic-based approach, REPFINDER, to automatically find replacements for missing APIs in library update. We design and combine a set of heuristics to hierarchically search three sources (deprecation message, own library, and external library) for finding replacements. Our evaluation has demonstrated that REPFINDER can find replacement APIs effectively and efficiently, and significantly outperform the state-of-the-art approaches.
 
-**Bold** and _Italic_ and `Code` text
 
-[Link](url) and ![Image](src)
-```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+The paper has been submitted to ASE 2021. See our data and code.
 
-### Jekyll Themes
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/repfinder/repfinder.github.io/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
 
-### Support or Contact
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
