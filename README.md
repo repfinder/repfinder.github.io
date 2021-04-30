@@ -12,7 +12,7 @@ In this paper, we first present an empirical study to understand characteristics
 
 
 
-The paper has been submitted to ASE 2021. See our data and [code](code.zip).
+The paper has been submitted to ASE 2021. See our [data](data.zip) and [code](code.zip).
 
 
 
